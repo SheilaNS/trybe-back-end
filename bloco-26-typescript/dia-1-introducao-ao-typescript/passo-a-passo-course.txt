@@ -1,0 +1,19 @@
+instala o TSC globalmente: npm install -g typescript
+
+executa o arquivo: tsc <nomeDoArquivo>.ts OU npx tsc <nomeDoArquivo>.ts
+
+depois de transpilar com o tsc, executar o arquivo .js com o node: node <nomeDoArquivo>.js
+
+*** EM UM PROJETO ***
+inicia o projeto: npm init -y
+instalar o TS: npm i -D typescript @tsconfig/node16 @types/node
+inicia o tsc: tsc --init OU npx tsc --init
+transpila um arquivo .ts em .js: tsc <nomeDoArquivo>.ts OU npx tsc <nomeDoArquivo>.ts
+transpila todos os arquivos .ts em .js: npx tsc
+roda os arquivos em node: node .dist/<nomeDoArquivo>.js
+
+transpila automaticamente: npx tsc -w
+
+npm install mysql2 dotenv
+
+
